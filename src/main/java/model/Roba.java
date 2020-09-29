@@ -74,4 +74,12 @@ public class Roba {
                 ", tezina=" + tezina +
                 '}';
     }
+
+    public Avion getAvion() {
+        return avion;
+    }
+
+    public void setAvion(Avion avion) {
+        this.avion = avion;
+    }
 }
