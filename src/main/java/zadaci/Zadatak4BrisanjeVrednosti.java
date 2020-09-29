@@ -1,11 +1,17 @@
 package zadaci;
 
+import com.j256.ormlite.dao.Dao;
 import com.j256.ormlite.jdbc.JdbcConnectionSource;
 import com.j256.ormlite.support.ConnectionSource;
+import model.Avion;
+import model.Roba;
 
 import java.io.IOException;
 
 public class Zadatak4BrisanjeVrednosti {
+    static Dao<Avion,Integer> avionDao;
+    static Dao<Roba,Integer> robaDao;
+
     public static void main(String[] args) {
 
         ConnectionSource connectionSource = null;
