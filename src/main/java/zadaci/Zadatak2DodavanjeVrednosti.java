@@ -39,12 +39,10 @@ public class Zadatak2DodavanjeVrednosti {
             r2.setAvion(a1);
             robaDao.create(r2);
 
-            //c)
             Roba r3=new Roba("Voda","Voda za pice",1.4);
             r3.setAvion(a1);
             robaDao.create(r3);
 
-            //d)
             Roba r4=new Roba("Ploce","Drvene ploce",3.4);
             r4.setAvion(a2);
             robaDao.create(r4);
